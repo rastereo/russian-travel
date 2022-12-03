@@ -1,0 +1,29 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 49px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 46px 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
+  }
+}
