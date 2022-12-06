@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 1024px) {
   :root {
-    --block-size-medium: 91%;
+    --block-size-medium: 90.7%;
     --block-size-big: 100%;
   }
 }

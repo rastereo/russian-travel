@@ -7,6 +7,12 @@
   padding: 28px 48px 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 28px 48px 1px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     padding: 28px 24px 1px;
