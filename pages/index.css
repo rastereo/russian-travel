@@ -14,6 +14,9 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_active/link_active.css);
 
+/** Bold **/
+@import url(../blocks/bold/bold.css);
+
 /** Header **/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -32,7 +35,6 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__item/intro__item.css);
-@import url(../blocks/intro/__item/_width/intro__item_width_bold.css);
 
 /** Photo-grid **/
 @import url(../blocks/photo-grid/photo-grid.css);
