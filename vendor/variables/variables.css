@@ -1,0 +1,36 @@
+:root {
+  --root-background-color: #2A2C2F;
+  --text-color: #fff;
+  --url-heading-color: #AAA;
+  --cover-overlay-color: #2A2C2F;
+  --block-size-medium: 77%;
+  --block-size-big: 92.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --block-size-medium: 90.7%;
+    --block-size-big: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --block-size-medium: 94%;
+    --block-size-big: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --block-size-medium: 90%;
+    --block-size-big: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  :root {
+    --block-size-medium: 90%;
+    --block-size-big: 100%;
+  }
+}

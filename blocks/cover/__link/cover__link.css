@@ -5,12 +5,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../../../img/cover-background.jpg);
+  background-image: url(../../../images/cover-background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 245px 0;
   position: relative;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {

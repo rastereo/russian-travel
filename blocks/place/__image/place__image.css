@@ -1,5 +1,6 @@
 .place__image {
   max-width: 460px;
+  display: block;
 
   grid-column: 1;
   grid-row: 2;
@@ -20,13 +21,12 @@
 @media screen and (max-width: 600px) {
   .place__image {
     max-width: 320px;
-    margin-bottom: 28px;
+    margin: 0 auto 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
-    max-width: 320px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 }
