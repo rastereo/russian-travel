@@ -17,20 +17,11 @@
 @media screen and (max-width: 768px) {
   :root {
     --block-size-medium: 94%;
-    --block-size-big: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
   :root {
     --block-size-medium: 90%;
-    --block-size-big: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  :root {
-    --block-size-medium: 90%;
-    --block-size-big: 100%;
   }
 }
